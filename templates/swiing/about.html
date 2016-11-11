@@ -1,0 +1,81 @@
+{% load static %}
+<head>
+<link rel="stylesheet" type="text/css" href="{% static 'swiing/style.css' %}" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://use.fontawesome.com/cb262da484.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+</script>
+<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+<script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+</head>
+
+
+<img src="{% static 'images/home.jpeg' %}" class="jumbo" />
+<img id="logo" src="{% static 'images/swiingiconwhite.png' %}" alt="swiingTravels Logo" />
+
+<!-- Static navbar -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/home">Home</a></li>
+                <li class="active"><a href="/about">About</a></li>
+                <li><a href="/adventures">Adventures</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a>801-508-4611</a></li>
+                <li class="nav-contact"><a href="https://www.facebook.com/swiingtravelsllc/" target="_blank"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
+                <li class="nav-contact"><a href="https://www.instagram.com/swiingtravels/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+                <li class="nav-contact"><a href="tel:801-508-4611" target="_blank"><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i></a></li>
+            </ul>
+
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+    <!--/.container-fluid -->
+</nav>
+
+<div class="container text-center">
+<p>When you travel with swiing, you're covered.</p>
+
+<p>You're on a social adventure.</p>
+<i class="fa fa-users fa-4x" aria-hidden="true"></i>
+
+<p>Incredible places. Incredible people. Incredible cost.
+  Join us at some of the best locations in the world, with expertly crafted itineraries that save you the time and hassle of planning yourself. If you see a place
+  once in your lifetime, we hope it's with us. Because it will be awesome.
+</p>
+<h1>What Do I Get?</h1>
+<p>Once a month we pick a destination. Throughout that month we offer limited spaces to travel with us an experience
+  that location in a unique and amazing way as part of a group adventure.</p>
+<p>Travelling with awesome people is great. And travelling this way we all split the cost. Your adventure cost covers</p>
+<ul class="list-group">
+<li class="list-group-item">Flights</li>
+<li class="list-group-item">Hotels</li>
+<li class="list-group-item">Transportation</li>
+<li class="list-group-item">Dining</li>
+</ul>
+<h1>Flights</h1>
+<i class="fa fa-plane fa-4x" aria-hidden="true"></i>
+<p>All you have to do is get a ride to the airport. And we will be there to meet you. We couldn't wait to meet you, so we fly out the exact same time as you do. On the same plane. </p>
+
+<i class="fa fa-shower" aria-hidden="true"></i>
+
+<i class="fa fa-taxi fa-4x" aria-hidden="true"></i>
+
+
+</div>
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">Copyright 2016 Swiing Travels LLC All Rights Reserved</p>
+      </div>
+    </footer>

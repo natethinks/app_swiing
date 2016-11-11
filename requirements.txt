@@ -1,0 +1,10 @@
+Django==1.10.1
+django-appconf==1.0.2
+django-autoslug==1.9.3
+jsonfield==1.0.3
+Pillow==3.4.1
+pinax-stripe==3.3.0
+pytz==2016.7
+requests==2.11.1
+six==1.10.0
+stripe==1.41.1
