@@ -5,7 +5,7 @@ from . import views
 app_name = ''
 urlpatterns = [
     # ex: /home/
-    url(r'^home$', views.home,),
+    url(r'^$', views.home,),
     url(r'^about$', views.about,),
     url(r'^adventures$', views.adventures,),
     url(r'^contact$', views.contact,),
