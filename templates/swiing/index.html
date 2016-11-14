@@ -50,6 +50,7 @@
 <div class="container">
 <h1 class="text-center">ADVENTURE WITH US</h1>
 <ul class="flex-container">
+{% if featured_trips %}
 {% for adventure in featured_trips %}
 <li class="product-flex-item">
 <a href="/adventures/{{ adventure.a_slug }}">
@@ -60,6 +61,7 @@
 </li>
 
 {% endfor %}
+{% endif %}
 </ul>
 
 
