@@ -4,4 +4,4 @@ from django.apps import AppConfig
 
 
 class SwiingConfig(AppConfig):
-    name = 'swiing'
+    name = 'app_swiing'
