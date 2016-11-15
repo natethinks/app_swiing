@@ -40,8 +40,6 @@ def charge(request):
     # See your keys here: https://dashboard.stripe.com/account/apikeys
     stripe.api_key = "sk_test_RYJpRydqzXGHoT9rYm9piIXk"
     stripe.api_base = "https://api-tls12.stripe.com"
-    import pdb; pdb.set_trace()
-
     # Get the credit card details submitted by the form
     token = request.POST['stripeToken']
 
