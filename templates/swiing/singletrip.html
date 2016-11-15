@@ -56,7 +56,7 @@
 <h1> {{ adventure.title }} </h1>
 <h1> something something </h1>
 
-<form action="/charge" method="POST">{% csrf_token %}
+<form action="/charge" method="POST" id="payment-form">{% csrf_token %}
 <script
   src="https://checkout.stripe.com/checkout.js" class="stripe-button"
   data-key="pk_test_bkbtc93svdoPOSpDhhjmZ7N4"
@@ -67,6 +67,17 @@
   data-locale="auto"
   data-zip-code="true">
 </script>
+
+<script>
+// Submit post on submit
+$('#payment-form').on('submit', function(event){
+    event.preventDefault();
+    console.log("form submitted!")  // sanity check
+    create_post();
+});
+</script>
+
+
 </form>
 </div>
 
